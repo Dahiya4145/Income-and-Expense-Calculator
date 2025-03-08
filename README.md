@@ -6,7 +6,7 @@
 The Income and Expense Calculator is a user-friendly web application designed to help you keep track of your financial transactions. Built with HTML, CSS, and JavaScript, this project allows users to add and manage their income and expenses with ease.
 
 # Features
-- **Add Transactions**: Easily add your income and expenses, specifying the amount, date, and description.
+- **Add Transactions**: Easily add your income and expenses, specifying the amount, and description.
 - **View Summary**: Get a clear summary of your total income, total expenses, and net balance.
 - **Transaction History**: View a detailed history of all your financial transactions.
 - **Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.
