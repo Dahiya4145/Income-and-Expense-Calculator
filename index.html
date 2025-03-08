@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income & Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="expense_expenditure_cost_business-plan_budget_rate_spending_money-bag_amount_investment-1024.webp" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h2>Income & Expense Tracker</h2>
+        
+        <h3>Add Income & Expense</h3>
+        <select id="transactionType" onchange="updateSelectColor()">
+            <option value="Income" class="income-bg">Income</option>
+            <option value="Expense" class="expense-bg">Expense</option>
+        </select>
+        <div class="input-group">
+            <input type="text" id="category" placeholder="Source or usage of money">
+            <input type="number" id="amount" placeholder="Amount">
+        </div>
+        <div class="button-group">
+            <button onclick="addTransaction()">Add Transaction</button>
+        </div>
+        
+        <div class="summary">
+            <h3>Summary</h3>
+            <p id="incomeSummary">Total Income: Rs. 0</p>
+            <p id="expenseSummary">Total Expense: Rs. 0</p>
+            <p id="finalBalance">Final Balance: Rs.0</p>
+        </div>
+        
+        <div class="history">
+            <h3>History</h3>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
