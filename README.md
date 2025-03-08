@@ -19,11 +19,12 @@ The Income and Expense Calculator is a user-friendly web application designed to
 # Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Dahiya4145/income-expense-calculator.git
+   git clone https://github.com/Dahiya4145/Income-and-Expense-Calculator.git
    ```
+  
 2. Navigate to the project directory:
    ```sh
-   cd income-expense-calculator
+   cd Income-and-Expense-Calculator
    ```
 3. Open the `index.html` file in your preferred web browser.
 
