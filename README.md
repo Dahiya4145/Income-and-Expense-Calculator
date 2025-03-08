@@ -32,6 +32,7 @@ The Income and Expense Calculator is a user-friendly web application designed to
 - **Adding Transactions**: Enter the details of your income or expense and click the "Add" button.
 - **Viewing Summary**: Check the summary section for a quick overview of your finances.
 - **Managing Transactions**: Edit or delete transactions as needed from the transaction history list.
+- **Alternatively**, use the live preview link: (https://dahiya4145.github.io/Income-and-Expense-Calculator/)
 
 # Contribution
 Contributions are welcome! Feel free to open an issue or submit a pull request.
